@@ -1,0 +1,14 @@
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\bin\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).exe
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\bin\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).deps.json
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\bin\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).runtimeconfig.json
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\bin\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).dll
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\bin\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).pdb
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).AssemblyInfoInputs.cache
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).AssemblyInfo.cs
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).csproj.CoreCompileInputs.cache
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).dll
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\refint\Uso de los hilos para simular un Cajero Automatico (ATM).dll
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).pdb
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\Uso de los hilos para simular un Cajero Automatico (ATM).genruntimeconfig.cache
+C:\Users\aavp0\Desktop\Uso de los hilos para simular un Cajero Automatico (ATM)\obj\Debug\net8.0\ref\Uso de los hilos para simular un Cajero Automatico (ATM).dll
