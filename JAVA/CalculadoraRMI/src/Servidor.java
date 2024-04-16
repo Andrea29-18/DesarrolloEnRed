@@ -5,7 +5,7 @@ public class Servidor {
     public static void main(String[] args) {
         try {
             int puerto = 8080;
-            String servidor = "localhost";
+            String servidor = "192.168.56.108";
 
             System.out.println("Iniciamos servidor en:");
             System.out.println("hostname: " + servidor);
