@@ -10,8 +10,8 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
 
+    // Plugin de gRPC para Gradle
     id 'com.google.protobuf' version '0.9.4'
-
 }
 
 // Configuracion del plugin gRPC
@@ -20,12 +20,12 @@ protobuf {
         artifact = "com.google.protobuf:protoc:3.25.1"
         }
         plugins {
-        grpc {
-            artifact = 'io.grpc:protoc-gen-grpc-java:1.62.2'
-        }
-        }
-        generateProtoTasks {
-            all()*.plugins {
+            grpc {
+                artifact = 'io.grpc:protoc-gen-grpc-java:1.62.2'
+            }
+    }
+    generateProtoTasks {
+        all()*.plugins {
             grpc {}
         }
     }
@@ -38,11 +38,11 @@ repositories {
 
 dependencies {
 
-    
+    // Repositorios para gRPC
     runtimeOnly 'io.grpc:grpc-netty-shaded:1.62.2'
     implementation 'io.grpc:grpc-protobuf:1.62.2'
     implementation 'io.grpc:grpc-stub:1.62.2'
-    compileOnly 'org.apache.tomcat:annotations-api:6.0.53'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
 
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
@@ -53,7 +53,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'calculado.grpc.App'
+    mainClass = 'calculadoragrpc.App'
 }
 
 tasks.named('test') {

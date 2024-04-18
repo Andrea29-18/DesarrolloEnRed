@@ -1,13 +1,13 @@
-package calculado.grpc.cliente;
-
-import com.proto.calculadora.CalculadoraServiceGrpc;
-import com.proto.calculadora.OperacionRequest;
-import com.proto.calculadora.OperacionResponse;
+package calculadoragrpc.cliente;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
 import javax.swing.JOptionPane;
+
+import com.proto.calculadora.Calculadora.OperacionRequest;
+import com.proto.calculadora.Calculadora.OperacionResponse;
+import com.proto.calculadora.CalculadoraServiceGrpc;
 
 public class Cliente {
     public static void main(String[] args) {
@@ -82,3 +82,4 @@ public class Cliente {
         }
     }
 }
+

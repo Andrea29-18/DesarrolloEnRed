@@ -1,13 +1,12 @@
-package calculado.grpc.servidor;
+package calculadoragrpc.servidor;
 
-import calculado.grpc.proto.CalculadoraServiceGrpc;
-import calculado.grpc.proto.OperacionRequest;
-import calculado.grpc.proto.OperacionResponse;
+import com.proto.calculadora.Calculadora.OperacionRequest;
+import com.proto.calculadora.Calculadora.OperacionResponse;
+import com.proto.calculadora.CalculadoraServiceGrpc;
 
 import io.grpc.stub.StreamObserver;
 
 public class ServidorImpl extends CalculadoraServiceGrpc.CalculadoraServiceImplBase {
-    
     @Override 
     public void calcular(OperacionRequest request, StreamObserver<OperacionResponse> responseObserver) {
         int resultado = 0;

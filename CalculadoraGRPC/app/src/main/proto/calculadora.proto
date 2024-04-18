@@ -1,11 +1,11 @@
 syntax = "proto3";
 
-option java_package = "calculado.grpc.proto";
+option java_package = "com.proto.calculadora";
 
 message OperacionRequest {
     int32 numero1 = 1;
     int32 numero2 = 2;
-    string operador = 3; 
+    string operador = 3; // Puedes usar un enum si prefieres enumerar los operadores
 }
 
 message OperacionResponse {
