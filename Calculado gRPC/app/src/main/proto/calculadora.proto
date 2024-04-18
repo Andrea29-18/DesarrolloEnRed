@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "calculado.grpc.proto";
+
+message OperacionRequest {
+    int32 numero1 = 1;
+    int32 numero2 = 2;
+    string operador = 3; 
+}
+
+message OperacionResponse {
+    int32 resultado = 1;
+}
+
+service CalculadoraService {
+    rpc calcular(OperacionRequest) returns (OperacionResponse);
+}

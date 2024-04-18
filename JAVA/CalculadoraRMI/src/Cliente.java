@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class Cliente {
     public static void main(String[] args) {
         int puerto = 8080;
-        String servidor = "192.168.56.108";
+        String servidor = "localhost";
 
         try {
 
