@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.proto.enviar";
+
+message ArchivoRequest{
+    string nombre_archivo = 1;
+}
+
+message ArchivoChunk{
+    bytes chunk = 1;
+}
+
+service ArchivoService{
+    rpc enviarArchivo(ArchivoRequest) returns (stream ArchivoChunk);
+}
