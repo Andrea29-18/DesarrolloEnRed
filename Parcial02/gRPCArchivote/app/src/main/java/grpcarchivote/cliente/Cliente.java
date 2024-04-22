@@ -15,19 +15,16 @@ public class Cliente {
 
         ManagedChannel ch = ManagedChannelBuilder.forAddress(host, puerto).usePlaintext().build();
 
-       
-        lecturaStream(ch);
-
-        System.out.println("Apagando...");
-        ch.shutdown();
-    }
-
-    public static void lecturaStream(ManagedChannel ch){
         ArchivoServiceGrpc.ArchivoServiceBlockingStub stub = ArchivoServiceGrpc.newBlockingStub(ch);
         ArchivoRequest peticion = ArchivoRequest.newBuilder().setArchivo("/archivote.csv").build();
 
         stub.enviarArchivo(peticion).forEachRemaining(respuesta ->{
             System.out.println("Respuesta RPC: " + respuesta.getCadena());
         });
+
+        System.out.println("Apagando...");
+        ch.shutdown();
     }
+
+    
 }

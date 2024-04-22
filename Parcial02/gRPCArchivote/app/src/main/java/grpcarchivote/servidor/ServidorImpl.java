@@ -18,7 +18,11 @@ public class ServidorImpl extends ArchivoServiceGrpc.ArchivoServiceImplBase {
                 responseObserver.onNext(cadena);
             }
 
+            //responseObserver.onNext(ArchivoChunk.newBuilder().setCadena("Ya terminé").build());  INTENTO DE AVISAR
+
             responseObserver.onCompleted();
+        }catch (Exception e) {
+            responseObserver.onError(e);
         }
     }
     
