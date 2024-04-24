@@ -1,2 +1,0 @@
-# DesarrolloEnRed
-Actividades de código
