@@ -11,7 +11,7 @@ class AudioStreamerServicer(audio_pb2_grpc.AudioServiceServicer):
         chunk_size = 1024
         with open("recursos/{0}".format(request.nombre), "rb") as content_file:
             while chunk_bytes := content_file.read(chunk_size):
-                yield audio_pb2.DataChunkResponse(chunk_bytes)
+                yield audio_pb2.DataChunkResponse(data=chunk_bytes)
                 print(".", end="", flush=True)
 
 def servidor():

@@ -26,7 +26,7 @@ def run():
     nombre_archivo = ""
     
     try:
-        nombre_archivo = "sample.wav"
+        nombre_archivo = "anyma.wav"
         streamAudio(stub, nombre_archivo)
     except KeyboardInterrupt:
         pass
