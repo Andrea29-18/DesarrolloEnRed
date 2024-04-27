@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "egAe33FhqlPjOeUWe/m6fRl+Ma91QNuHvdkWVtRrKg0=",
+  "Source": "gRPCServidor",
+  "BasePath": "_content/gRPCServidor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
