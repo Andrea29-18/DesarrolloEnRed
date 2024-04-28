@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "axS+lya+qT/xKk137fOrxb5rf+TNn+evnX50nORNY5TI4nIFv6wB6Mv1ZU5ElizyjCsDYs3NTyj3j+fb0URv9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aavp0\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\aavp0\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

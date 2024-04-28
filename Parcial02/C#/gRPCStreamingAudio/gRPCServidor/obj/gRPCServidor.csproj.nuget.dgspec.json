@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj": {}
+    "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj": {
+    "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj",
+        "projectUniqueName": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj",
         "projectName": "gRPCServidor",
-        "projectPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj",
+        "projectPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\gRPCServidor.csproj",
         "packagesPath": "C:\\Users\\aavp0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\obj\\",
+        "outputPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\gRPCServidor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aavp0\\AppData\\Roaming\\NuGet\\NuGet.Config"
