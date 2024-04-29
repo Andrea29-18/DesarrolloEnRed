@@ -1,0 +1,18 @@
+//Version protobuf
+syntax = "proto3";
+//Atributo nombre que es cadena
+//Cliente envia objeto tipo "DowloadFileRequest" a servidor
+message DownloadFileRequest{
+    string nombre = 1;
+}
+//Server devuelve DataChunkResponse
+//Servidor envia objeto tipo "DataChunkResponse" a cliente
+message DataChunkResponse{
+    bytes data = 1;
+}
+//Nombre de servicio "AudioService"
+//Funcion "downloadAudio()" toma entrada tipo cliente y devuelve servidor
+service AudioService{
+    //Funcion
+    rpc downloadAudio(DownloadFileRequest) returns (stream DataChunkResponse);
+}

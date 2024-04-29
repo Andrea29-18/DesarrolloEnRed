@@ -352,11 +352,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
+      "projectUniqueName": "C:\\Users\\aavp0\\Documents\\Prueba\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
       "projectName": "Cliente",
-      "projectPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
+      "projectPath": "C:\\Users\\aavp0\\Documents\\Prueba\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
       "packagesPath": "C:\\Users\\aavp0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\obj\\",
+      "outputPath": "C:\\Users\\aavp0\\Documents\\Prueba\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aavp0\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axS+lya+qT/xKk137fOrxb5rf+TNn+evnX50nORNY5TI4nIFv6wB6Mv1ZU5ElizyjCsDYs3NTyj3j+fb0URv9A==",
+  "dgSpecHash": "p+e6C1hZLSmNMkc1n4Hwzc7fgaANHkwneeMudBl/+t3atlNgg50eMv+UyZYXP0QaJV3fDCzF665yyAQptayi7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aavp0\\Documents\\Semestre 07\\DESARROLLO DE SISTEMAS EN RED\\Codigo\\DesarrolloEnRed-main\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
+  "projectFilePath": "C:\\Users\\aavp0\\Documents\\Prueba\\DesarrolloEnRed\\Parcial02\\C#\\gRPCStreamingAudio\\Cliente\\Cliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aavp0\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
     "C:\\Users\\aavp0\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
