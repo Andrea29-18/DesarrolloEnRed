@@ -14,8 +14,45 @@ POST http://localhost:3000/api/peliculas
 Content-Type: application/json
 
 {
-    "titulo": "Película de prueba",
-    "sinopsis": "Sinopsis de prueba.",
+    "titulo": "El tamalero",
+    "sinopsis": "El tamalero trata de un señor que vendía tamales pero otro señor quería y no agarro por que el tamalero se fue",
+    "anio": 2024
+}
+
+###
+
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "El tamalero2 Ya te atrape",
+    "sinopsis": "Habla de que el señor ya encontro al tamalero, y le pidio dos de salsa roja pero el señor no tenía de esos",
+    "anio": 2024
+}
+
+###
+
+###
+
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "El tamalero3 Si habia de salsa roja",
+    "sinopsis": "El tamalero si tenía de salsa roja solo que lo tenía escondido, entonces el señor se enojo y fue por churros",
+    "anio": 2024
+}
+
+###
+
+###
+
+POST http://localhost:3000/api/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "El churrero",
+    "sinopsis": "Proximamente solo en cines",
     "anio": 2024
 }
 

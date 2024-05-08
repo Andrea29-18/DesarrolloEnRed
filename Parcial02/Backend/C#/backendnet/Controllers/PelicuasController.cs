@@ -7,7 +7,7 @@ namespace backendnet.Controllers;
 
 [Route ("api/[controller]")]
 [ApiController]
-public class PelicuasController(DataContext context) : Controller
+public class PeliculasController(DataContext context) : Controller
 {
     //GET: api/peliculas?s=titulo
     [HttpGet]
