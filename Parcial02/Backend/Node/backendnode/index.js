@@ -3,6 +3,9 @@ const cors = require("cors")
 const dotenv = require('dotenv')
 const app = express()
 
+const swaggerUI = require('swagger-ui-express')
+const swaggerFile = require('./swagger-output.json')
+
 dotenv.config();
 
 app.use(express.json());
@@ -15,6 +18,8 @@ var corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
+app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerFile))
 
 app.use("/api/categorias", require('./routes/categorias.routes'))
 app.use("/api/peliculas", require('./routes/peliculas.routes'))
