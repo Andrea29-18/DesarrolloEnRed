@@ -37,7 +37,7 @@ self.get = async function(req, res){
     try {
         let id = req.params.id;
         let data = await categoria.findByPk(id, {
-            attributes: [['id', 'peliculaId'], 'titulo', 'sisnopsis', 'anio', 'poster'],
+            attributes: [['id', 'peliculaId'], 'titulo', 'sinopsis', 'anio', 'poster'],
             include:{
                 model: categoria,
                 as: 'categorias',
