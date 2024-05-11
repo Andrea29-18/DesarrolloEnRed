@@ -26,7 +26,7 @@ self.getAll = async function(req, res){
             },
             subQuery: false
         });
-        return res.status(200).json(error)
+        return res.status(200).json(data)
     } catch (error) {
         return res.status(500).json(error)
     }
@@ -36,7 +36,7 @@ self.getAll = async function(req, res){
 self.get = async function(req, res){
     try {
         let id = req.params.id;
-        let data = await categoria.findByPk(id, {
+        let data = await pelicula.findByPk(id, {
             attributes: [['id', 'peliculaId'], 'titulo', 'sinopsis', 'anio', 'poster'],
             include:{
                 model: categoria,

@@ -2,13 +2,13 @@ GET http://localhost:3000/api/peliculas
 
 ###
 
-GET http://localhost:3000/api/peliculas?s=Dun
+GET http://localhost:3000/api/peliculas?s=1
 
 ###
 
 GET http://localhost:3000/api/peliculas/19
 
-###
+###u
 
 POST http://localhost:3000/api/peliculas
 Content-Type: application/json
