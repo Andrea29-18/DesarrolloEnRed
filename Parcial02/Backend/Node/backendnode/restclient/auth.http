@@ -1,0 +1,19 @@
+GET http://localhost:3000/api/categorias
+
+###
+
+POST http://localhost:3000/api/auth
+Content-Type: application/json
+
+{
+    "username": "aavp1603@gmail.com",
+    "password": "patito"
+}
+
+###
+
+GET http://localhost:3000/api/categorias
+Content-Type: application/json
+Authorization: Bearer 1f37fbf7a9aaead77e2cd0acd1c69c59c759d421ad626e39a0b5dc3e48b158e8283da2
+
+### 

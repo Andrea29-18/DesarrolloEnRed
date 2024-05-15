@@ -1,0 +1,32 @@
+GET http://localhost:3000/api/usuarios
+
+###
+
+GET http://localhost:3000/api/usuarios/2
+
+###
+
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "username": "Categoria de prueba",
+    "password": "patito",
+    "nombre": "Un nuevo usuario pato",
+    "rol": "Administrador"
+}
+
+###
+
+PUT http://localhost:3000/api/usuarios/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "nombre": "Usuario pato editado",
+    "rol": "Usuario"
+}
+
+###
+
+DELETE http://localhost:3000/api/usuarios/3

@@ -1,3 +1,5 @@
+//POR CADA CAMBIO SE DEBE DE ACTUALIZAR "node swagger.js" CON SU ACTUALIZACION
+
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
