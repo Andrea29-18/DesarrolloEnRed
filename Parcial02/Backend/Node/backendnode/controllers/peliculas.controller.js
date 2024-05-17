@@ -104,7 +104,7 @@ self.delete = async function(req, res){
     }
 }
 
-//DELETE: api/peliculas/5/categoria
+//POST: api/peliculas/5/categoria
 self.asignaCategoria = async function(req, res){
     try {
         let itemToAssign = await categoria.findByPk(req.body.categoriaid);

@@ -3,22 +3,22 @@ const categorias = require('../controllers/categorias.controller')
 const Authorize = require('../middlewares/auth.middleware')
 
 //GET api/categorias
-router.get('/',Authorize(Usuario,Administrador),categorias.getAll);
+router.get('/',Authorize('Administrador'),categorias.getAll);
 
 
 //GET api/categorias/5
-router.get('/:id', Authorize(Usuario,Administrador) ,categorias.get);
+router.get('/:id', Authorize('Administrador') ,categorias.get);
 
 
 //POST api/categorias
-router.post('/', Authorize(Administrador) ,categorias.create);
+router.post('/', Authorize('Administrador') ,categorias.create);
 
 
 //PUT api/categorias/5
-router.put('/:id', Authorize(Administrador) ,categorias.update);
+router.put('/:id', Authorize('Administrador') ,categorias.update);
 
 
 //DELETE api/categorias
-router.delete('/:id', Authorize(Administrador) ,categorias.delete);
+router.delete('/:id', Authorize('Administrador') ,categorias.delete);
 
 module.exports = router

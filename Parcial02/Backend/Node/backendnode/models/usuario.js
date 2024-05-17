@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     protegido: {
       type: DataTypes.BOOLEAN,
-      allowNull: false
+      defaultValue: false
     },
     rolid: {
       type: DataTypes.STRING,

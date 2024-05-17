@@ -1,7 +1,4 @@
 'use strict';
-
-const { toDefaultValue } = require('sequelize/lib/utils');
-
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -26,7 +23,7 @@ module.exports = {
       },
       protegido: {
         type: Sequelize.BOOLEAN,
-        DefaultValue: false
+        defaultValue: false
       },
       rolid: {
         allowNull: false,

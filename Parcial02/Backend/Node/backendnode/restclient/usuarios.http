@@ -10,9 +10,9 @@ POST http://localhost:3000/api/usuarios
 Content-Type: application/json
 
 {
-    "username": "Categoria de prueba",
-    "password": "patito",
-    "nombre": "Un nuevo usuario pato",
+    "username": "Usuario de prueba1",
+    "password": "patito1",
+    "nombre": "Un nuevo usuario pato1",
     "rol": "Administrador"
 }
 

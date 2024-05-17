@@ -10,7 +10,7 @@ self.login = async function (req, res){
         let data = await usuario.findOne({
             where: {email: email},
             raw: true,
-            attributes: ['id', 'email', 'passwordhash', [Sequelize.col('rol.nombre'), 'rol']],
+            attributes: ['id', 'email', 'nombre' ,'passwordhash', [Sequelize.col('rol.nombre'), 'rol']],
             include: {model: rol, attributes: []}
         })
 
