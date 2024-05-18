@@ -10,7 +10,7 @@ POST http://localhost:3000/api/usuarios
 Content-Type: application/json
 
 {
-    "username": "Usuario de prueba1",
+    "username": "prueba@uv-mx",
     "password": "patito1",
     "nombre": "Un nuevo usuario pato1",
     "rol": "Administrador"
