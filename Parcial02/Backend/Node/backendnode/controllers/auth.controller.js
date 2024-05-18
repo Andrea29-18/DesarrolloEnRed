@@ -6,6 +6,9 @@ let self = {}
 
 //POST: api/auth
 self.login = async function (req, res){
+
+    const {email, password } = req.body
+
     try {
         let data = await usuario.findOne({
             where: {email: email},
