@@ -1,5 +1,6 @@
 using backendnet.Data;
 using backendnet.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,19 +8,22 @@ namespace backendnet.Controllers;
 
 [Route ("api/[controller]")]
 [ApiController]
-public class PeliculasController(DataContext context) : Controller
+
+public class PeliculasController(IndentityContext context) : Controller
 {
     //GET: api/peliculas?s=titulo
     [HttpGet]
+    [Authorize(Roles = "Administrador, Usuario")]
     public async Task<ActionResult<IEnumerable<Pelicula>>> GetPeliculas(string? s)
     {
-        if(string.IsNullOrWhiteSpace(s))
+        if(string.IsNullOrEmpty(s))
             return await context.Pelicula.Include(i => i.Categorias).AsNoTracking().ToListAsync();
         return await context.Pelicula.Include(i => i.Categorias).Where(c => c.Titulo.Contains(s)).AsNoTracking().ToListAsync();
     }
 
     //GET: api/peliculas/5
     [HttpGet ("{id}")]
+    [Authorize(Roles="Administrador, Usuario")]
     public async Task<ActionResult<Pelicula>> GetPelicula(int id)
     {
         var pelicula = await context.Pelicula.Include(i => i.Categorias).AsNoTracking().FirstOrDefaultAsync(s => s.PeliculaId == id);
@@ -30,6 +34,7 @@ public class PeliculasController(DataContext context) : Controller
 
     //POST: api/peliculas
     [HttpPost]
+    [Authorize(Roles="Administrador")]
     public async Task<ActionResult<Pelicula>> PostPelicula(PeliculaDTO peliculaDTO)
     {
         Pelicula pelicula = new()
