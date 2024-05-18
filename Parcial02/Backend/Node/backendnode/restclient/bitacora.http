@@ -1,19 +1,8 @@
-GET http://localhost:3000/api/categorias
-
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWF2cDE2MDNAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiQWxlIFB1Y2hldGEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiaXNzIjoiU2Vydmlkb3JGZWlKV1QiLCJhdWQiOiJDbGllbnRlc0ZlaUpXVCIsImlhdCI6MTcxNjAwMjk3MywiZXhwIjoxNzE2MDA0MTczfQ.hc9RdumwGy8BdIVHKoOrcr2vZ_cbfSQEKrDmqrrlmM4
 ###
 
-POST http://localhost:3000/api/auth
-Content-Type: application/json
-
-{
-    "email": "aavp1603@gmail.com",
-    "password": "patito"
-}
-
-###
-
-GET http://localhost:3000/api/categorias
+GET http://localhost:3000/api/bitacora
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWF2cDE2MDNAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiQWxlIFB1Y2hldGEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiaXNzIjoiU2Vydmlkb3JGZWlKV1QiLCJhdWQiOiJDbGllbnRlc0ZlaUpXVCIsImlhdCI6MTcxNjAwMjk3MywiZXhwIjoxNzE2MDA0MTczfQ.hc9RdumwGy8BdIVHKoOrcr2vZ_cbfSQEKrDmqrrlmM4
 
-### 
+###

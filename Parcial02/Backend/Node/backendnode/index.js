@@ -21,11 +21,15 @@ app.use(cors(corsOptions));
 
 app.use('/swagger', swaggerUI.serve, swaggerUI.setup(swaggerFile))
 
+// Bitacora
+app.use(require("./middlewares/bitacora.middleware"))
+
 app.use("/api/categorias", require('./routes/categorias.routes'))
 app.use("/api/peliculas", require('./routes/peliculas.routes'))
 app.use("/api/usuarios", require('./routes/usuarios.routes'))
 app.use("/api/roles", require('./routes/roles.routes'))
 app.use("/api/auth", require('./routes/auth.routes'))
+app.use("/api/bitacora", require('./routes/bitacora.routes'))
 app.get('*', (req,res) => {res.status(404).send() });
 
 const errorlogger = require('./middlewares/errorlogger.middleware')
