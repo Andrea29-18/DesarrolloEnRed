@@ -1,4 +1,5 @@
 GET http://localhost:3000/api/usuarios
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWF2cEBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJBbGVqYW5kcmEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiZXhwIjoxNzE2MDU0MjE0LCJpc3MiOiJTZXJ2aWRvckZlaUpXVCIsImF1ZCI6IkNsaWVudGVzRmVpSldUIn0.io2OuMFftA7J27GaBEfP7O8S_sO7yUImyYEQKHtEAus
 
 ###
 
@@ -8,11 +9,13 @@ GET http://localhost:3000/api/usuarios/aavp@gmail.com
 
 POST http://localhost:3000/api/usuarios
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWF2cEBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJBbGVqYW5kcmEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiZXhwIjoxNzE2MDU0MjE0LCJpc3MiOiJTZXJ2aWRvckZlaUpXVCIsImF1ZCI6IkNsaWVudGVzRmVpSldUIn0.io2OuMFftA7J27GaBEfP7O8S_sO7yUImyYEQKHtEAus
+
 
 {
-    "email": "prueba@uv.mx",
-    "password": "patito",
-    "nombre": "Un nuevo usuario pato",
+    "email": "prueba3@uv.mx",
+    "password": "patito3",
+    "nombre": "Un nuevo usuario pato3",
     "rol": "Administrador"
 }
 
